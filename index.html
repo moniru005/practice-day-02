@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice Task</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #first{
+            background-color: beige;
+        }
+        #second{
+            background-color: aqua;
+        }
+        #third{
+            background-color: lightgreen;
+        }
+        .header{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .logo{
+            width: 30%;
+            text-align: center;
+
+        }
+        .nav{
+           width: 70%;
+           padding-top: 20px;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo" height="" width="">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Who we are</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        
+    </header>
+    <div class="blog" id="first">
+        <h3>This is First Paragraph</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="border: 1px solid red;">Minus doloremque</span> ipsa ea, necessitatibus sequi harum ullam quisquam ratione nemo, aliquid perferendis architecto numquam! Eos nemo ab possimus qui rerum deleniti.</p>
+    </div>
+    <div class="blog" id="second">
+        <h3>This is Second Paragraph</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus doloremque ipsa ea, necessitatibus sequi <span style="border: 1px solid green;">harum ullam</span> quisquam ratione nemo, aliquid perferendis architecto numquam! Eos nemo ab possimus qui rerum deleniti.</p>
+    </div>
+    <div class="blog" id="third">
+        <h3>This is Third Paragraph</h3>
+        <p>Lorem ipsum dolor sit amet <span style="border: 1px solid purple;">consectetur adipisicing</span> elit. Minus doloremque ipsa ea, necessitatibus sequi harum ullam quisquam ratione nemo, aliquid perferendis architecto numquam! Eos nemo ab possimus qui rerum deleniti.</p>
+    </div>
+    <div class="selectors">
+        <h3>Css selectors</h3>
+        <ul>
+            <li class="list">Class selectors</li>
+            <li class="list">ID selectors</li>
+            <li class="list">Element selectors</li>
+            <li class="list">Universal selectors</li>
+            <li class="list">Grouping selectors</li>
+        </ul>
+    </div>
+</body>
+</html>

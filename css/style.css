@@ -1,0 +1,53 @@
+*{
+    /* margin: 0; */
+}
+body{
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    display: flex;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    
+}
+.blog{
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid green;
+    border-radius: 10px;
+    box-shadow: 5px 8px 20px yellowgreen;
+    
+}
+.selectors{
+    text-align: center;
+    margin-top: 50px;
+}
+ul{
+    position: relative;
+    top: -20px;
+}
+ul, li{
+    display: inline-block;
+}
+li{    
+    margin: 5px;
+    padding: 5px;
+}
+.list{
+    border: 1px solid red;
+}
+.nav ul li{
+    text-align: center;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    font-size: 16px;
+    color:green;
+}
